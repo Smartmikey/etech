@@ -1,0 +1,96 @@
+:root{
+    --mainGreen: #146F75;
+    --lightGreen: #0b9da7;
+    --mainWhite: #fff;
+    --mainBlack: #333333;
+}
+
+.row{
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+} 
+.card-img-top {
+    width: 4% !important;
+    margin: 5px auto ;
+}
+.carousel-indicators li {
+    background-color: var(--mainGreen);
+}
+.carousel-indicators{
+    bottom: -50px;
+}
+
+.back-bg{
+    background-color: var(--mainBlack);
+    color: var(--mainWhite)
+}
+
+.cust-icon {
+    width: 15%;
+}
+.cust-icon-testy {
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 5rem;
+}
+
+.xl-text{
+    font-size: 4rem;
+}
+
+.front-page{
+    min-height: 60vh;
+}
+@media screen and (min-width: 768px) {
+    .col-md-4 {
+        width: 31%!important;
+        flex: unset !important;
+        align-items: center;
+    }
+    .lg-header-text{
+        font-size: 5rem;
+    }
+    .on-fly-img{
+        width: 50% !important;
+    }
+}
+
+.card:hover {
+    box-shadow: 12px 15px 35px rgba(0, 0, 0, 0.05);
+}
+
+svg {
+    margin: 0 auto;
+}
+
+.bg-img{
+    background-image: url('./assets/kadunamap.PNG');
+    background-size: cover;
+}
+.bg-image{
+    background-image: url('./assets/program.jpg');
+    background-size: cover;
+    min-height: 60vh;
+}
+
+.list ul li{
+    list-style-type: none;
+    font-size: 1.3rem;
+    padding-left: 1.5rem;
+}
+
+.list ul li a {
+    color: var(--mainBlack)
+
+}
+
+.on-fly{
+    position: absolute;
+    left: 15rem;
+    bottom: 0;
+}
+.on-fly-img{
+    position: relative;
+    bottom: 20px;
+}
+

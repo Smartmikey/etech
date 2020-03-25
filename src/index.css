@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Raleway,  'Roboto', 'Oxygen', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #FCFDFD;
+}
+h1 {
+  font-family: Raleway;
+font-style: normal;
+font-weight: 900;
+font-size: 56px;
+line-height: 72px;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  text-align: center;
+}
+
+
+.construction-img{
+  display: block;
+  padding: 10px;
+  width: 80%;
+  margin: 0 auto;
+}
+main{
+  padding: 15px;
+  
+}
+main section {
+  text-align: center;
+}
+@media screen and (min-width: 800px){
+  
+  main{
+    display: flex;
+  }
+}
